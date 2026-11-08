@@ -6,6 +6,8 @@ bahasa natural.
 
 Stack: LangGraph, OpenAI, sqlglot, SQLite, Streamlit.
 
+Demo: https://southcity.text-2-sql.nathan-dev.online
+
 ## Menjalankan
 
 ```bash
@@ -17,6 +19,8 @@ streamlit run streamlit_app.py
 ```
 
 Database dibuat otomatis dari `schema.sql` saat aplikasi pertama kali jalan.
+
+Atau dengan Docker: `docker compose up -d --build`, lalu buka http://localhost:8501.
 
 ## Test
 
